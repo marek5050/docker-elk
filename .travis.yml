@@ -9,12 +9,6 @@ services:
   - docker
 
 install:
-  # Installing docker
-  # - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-  # - sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-  # - sudo apt-get update
-  # - sudo apt-get -y install docker-ce
-
   # Installing docker-compose
   - sudo rm /usr/local/bin/docker-compose
   - curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" > docker-compose
@@ -33,6 +27,6 @@ script:
   # Verifications
   - sleep 30
   - docker-compose logs
-  - curl --retry 10 --retry-delay 5 -D- http://localhost:9200/
-  - curl --retry 10 --retry-delay 5 -D- http://localhost:5601/api/status
+  - curl --retry 20 --retry-delay 5 -D- http://localhost:9200/
+  - curl --retry 20 --retry-delay 5 -D- http://localhost:5601/api/status
   - ./test.sh
