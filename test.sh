@@ -1,5 +1,6 @@
+#!/usr/bin/env bash
 curl -X POST \
-  http://localhost:8080/org/test_orb \
+  http://127.0.0.1:8080/org/test_orb \
   -H 'Accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '[{
