@@ -3,13 +3,7 @@ sudo: required
 language: generic
 
 env:
-  - DOCKER_COMPOSE_VERSION=1.4.2
-
-addons:
-  apt:
-    packages:
-      - docker-ce
-      - docker-compose
+  - DOCKER_COMPOSE_VERSION=1.8.0
 
 before_script:
   # Check docker & docker-compose versions
