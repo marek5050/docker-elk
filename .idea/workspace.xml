@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="305aa794-646d-4587-81be-749cf08624a0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="test.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="27" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -40,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+              <caret line="32" column="122" lean-forward="true" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -225,12 +226,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531322324424</updated>
-      <workItem from="1531322328622" duration="1985000" />
+      <workItem from="1531322328622" duration="3003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1985000" />
+    <option name="totallyTimeSpent" value="3003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1273" height="960" extended-state="0" />
@@ -290,14 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -306,10 +299,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <caret line="32" column="122" lean-forward="true" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
           <folding />
         </state>
       </provider>

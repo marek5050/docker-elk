@@ -30,3 +30,4 @@ script:
   - curl --retry 20 --retry-delay 5 -D- http://127.0.0.1:9200/
   - curl --retry 20 --retry-delay 5 -D- http://127.0.0.1:5601/api/status
   - "curl -X POST 'http://127.0.0.1:8080/org/test_org' -H 'Accept: application/json' -H 'Content-Type: application/json' --data '@./sample.json'"
+  - "curl -X GET 'http://127.0.0.1:9200/_search' -H 'Content-Type: application/json' -d '{\"query\":{\"match_all\": {}}}'"
