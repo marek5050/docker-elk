@@ -115,7 +115,7 @@ $ curl -X POST \
       "eventTransactionId":"f19e26b6-example-4051-9042-5a2ee6b05797",
       "eventType":"E457",
       "associatedShipmentRefs":[
-         "example ref"
+         "example_ref"
       ],
       "associatedShipmentIds":[
          "8efdf954-example-476a-b13e-c5f217bb2360"
