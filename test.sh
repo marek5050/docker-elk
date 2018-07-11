@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 curl -X POST \
-  http://127.0.0.1:8080/org/test_orb \
+  http://127.0.0.1:8080/org/test_org \
   -H 'Accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '[{
@@ -13,13 +13,13 @@ curl -X POST \
       "originatorName":"OriginatorName",
       "containerTransportId":"Test",
       "transportationPhase":"Export",
-      "eventTransactionId":"f19e26b6-fdd8-4051-9042-5a2ee6b05797",
+      "eventTransactionId":"f19e26b6-example-4051-9042-5a2ee6b05797",
       "eventType":"E457",
       "associatedShipmentRefs":[
-         "605882740"
+         "exampleRef"
       ],
       "associatedShipmentIds":[
-         "8efdf954-0beb-476a-b13e-c5f217bb2360"
+         "8efdf954-example-476a-b13e-c5f217bb21230"
       ],
       "location":{
          "type":"UN/Locode",
