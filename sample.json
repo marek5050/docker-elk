@@ -1,0 +1,23 @@
+[{
+  "eventSubmissionTime":1526520197540,
+  "version":2,
+  "eventName":"Estimated loading on vessel",
+  "originatorId":"OrgId",
+  "eventOccurrenceTime":1527188400000,
+  "eventOccurrenceTime8601":"2018-05-24T19:00:00Z",
+  "originatorName":"OriginatorName",
+  "containerTransportId":"Test",
+  "transportationPhase":"Export",
+  "eventTransactionId":"f19e26b6-example-4051-9042-5a2ee6b05797",
+  "eventType":"E457",
+  "associatedShipmentRefs":[
+    "exampleRef"
+  ],
+  "associatedShipmentIds":[
+    "8efdf954-example-476a-b13e-c5f217bb21230"
+  ],
+  "location":{
+    "type":"UN/Locode",
+    "value":"SGSIN"
+  }
+}]
